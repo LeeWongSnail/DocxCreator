@@ -1,0 +1,6 @@
+framework module YXDocXCreator {
+  umbrella header "YXDocXCreator-umbrella.h"
+
+  export *
+  module * { export * }
+}

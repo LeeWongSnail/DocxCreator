@@ -1,0 +1,48 @@
+{
+  "name": "YXDocXCreator",
+  "version": "0.1.0",
+  "summary": "A short description of YXDocXCreator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liwang8/YXDocXCreator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liwang8": "wangli@yinxiang.com"
+  },
+  "source": {
+    "git": "https://github.com/liwang8/YXDocXCreator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "YXDocXCreator": [
+      "YXDocXCreateResource"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "DocX",
+      "source_files": "YXDocXCreator/Classes/DocX/**/*",
+      "dependencies": {
+        "YXDocXCreator/AEXML": [
+
+        ],
+        "YXDocXCreator/ZipFoundation": [
+
+        ]
+      }
+    },
+    {
+      "name": "AEXML",
+      "source_files": "YXDocXCreator/Classes/AEXML/**/*"
+    },
+    {
+      "name": "ZipFoundation",
+      "source_files": "YXDocXCreator/Classes/ZipFoundation/**/*"
+    }
+  ]
+}

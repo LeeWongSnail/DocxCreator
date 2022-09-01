@@ -1,0 +1,24 @@
+PODS:
+  - YXDocXCreator (0.1.0):
+    - YXDocXCreator/AEXML (= 0.1.0)
+    - YXDocXCreator/DocX (= 0.1.0)
+    - YXDocXCreator/ZipFoundation (= 0.1.0)
+  - YXDocXCreator/AEXML (0.1.0)
+  - YXDocXCreator/DocX (0.1.0):
+    - YXDocXCreator/AEXML
+    - YXDocXCreator/ZipFoundation
+  - YXDocXCreator/ZipFoundation (0.1.0)
+
+DEPENDENCIES:
+  - YXDocXCreator (from `../`)
+
+EXTERNAL SOURCES:
+  YXDocXCreator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YXDocXCreator: b8d0e13874df016461c81c04bcce92abdb74d8a0
+
+PODFILE CHECKSUM: 4395698cb12c5ec0e89fc81d3f479a19babf6761
+
+COCOAPODS: 1.10.1

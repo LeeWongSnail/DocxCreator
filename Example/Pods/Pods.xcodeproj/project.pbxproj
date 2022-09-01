@@ -1,0 +1,1106 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0148C462EAA7B4737F4F1F2C2DCAFE19 /* Archive+MemoryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912FCE33544DE80372F134FF55E4201 /* Archive+MemoryFile.swift */; };
+		09B1CCCB1078FED96423342A82E08D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0D04133224D657559D150598DD61C88A /* PlatformSpecific-macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3AD82A68EF742DD766FFC19040CCF /* PlatformSpecific-macOS.swift */; };
+		0D7B7C0210CF308C26AAFC958B46B25B /* Archive+ReadingDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E74401B5AEAC53B24E64383581AE9DC /* Archive+ReadingDeprecated.swift */; };
+		0F39DD55A7263DBF2FE5AD53EEBEE662 /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB0063D1FE693AA38E607F2E3529301 /* FileManager+ZIP.swift */; };
+		12A680A624F021BFA7B514B68CCDCA50 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E2A50430232AD152588EAB36F64D40 /* Options.swift */; };
+		14749FAEC8BBDFD22B00C7C7EE2B98E3 /* DocXWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42997493834215C60621F790661BDF89 /* DocXWriter.swift */; };
+		173165F1894CD2E63FB38EC5F5363E40 /* NSAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92EE11C3F5198C660FFB4AC8E7D894E /* NSAttributedString+Extensions.swift */; };
+		1B58BF1DA20457FC2B94C2C61891AB54 /* Data+CompressionDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB274CB7105392BFE65DCFA465B2D /* Data+CompressionDeprecated.swift */; };
+		1EA3F1BD06318AEFDB9254AC7A94CA55 /* NSUnderlineStyle+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66F654A7981ED43D75FA1E3C57B0F7A /* NSUnderlineStyle+Elements.swift */; };
+		1F738D41976A9C536B76375905643F57 /* AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E856D2F19F602A62A529C85CD7DD38C /* AttributedString.swift */; };
+		28F6C092C771B0ED022EEEA6DCFC44BA /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = C87E05B4DD237E157CDED39ED6FA85E4 /* module.modulemap */; };
+		2D897F02DEC60C9819121149CB3359CC /* shim.h in Headers */ = {isa = PBXBuildFile; fileRef = E5938D172C4FB1E90F368F9D19884AF7 /* shim.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34A18789819169ACF33D3325D4661E32 /* Pods-YXDocXCreator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8CDF98A461576C528C112F5FFDA2DF /* Pods-YXDocXCreator_Example-dummy.m */; };
+		365491BC23E8F7C248059A96C4D0EDC2 /* YXDocXCreator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD68AFECED835935E026973D26F97C /* YXDocXCreator-dummy.m */; };
+		390B99232ADF2F1F22D7C9A7BA54A41F /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A40764292A8AF0F58A1B1F1D29895 /* Data+Compression.swift */; };
+		3BDFDB3EE62B56B23507CED2E0A2E92B /* Archive+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A9472F5A083CB760D436963B9B85A /* Archive+Helpers.swift */; };
+		3CC9BD3550E6A8F52805B8837912DE97 /* URL+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D538529A0886E8A12EA7208A05D6C0 /* URL+ZIP.swift */; };
+		3F1A8A2703F39472E19C743C5F1881DA /* PlatformSpecific-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B23BCB85E5DFD2D6AF8593D3383BD6B /* PlatformSpecific-iOS.swift */; };
+		44E2D8A3FB1B12E47BF6CC2FD560AA13 /* NSAttributedString+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F938C7FD88BA9C25643CB58F6AB20D /* NSAttributedString+Writing.swift */; };
+		4E0DBC0393215793C637E4BB17ACA528 /* Archive+Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4609BB36ED853E8F95DF5631CB92F8 /* Archive+Progress.swift */; };
+		5192911EA57BE26A7A29FE354C7F806E /* AttributeElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2017FC80050D2AD99CB6A6ABEF1C0F53 /* AttributeElements.swift */; };
+		55F26F9504CAB0E100A6B9F695F6E43E /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB193227ED8A440C6521FE1FB3718B43 /* Archive.swift */; };
+		57F2426B7DA38484C147B7E2A0D3AFBF /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD72B89209334FC7AD437C176EC1C0A /* Entry.swift */; };
+		5ED7F176843F1777BFDE08D566AC6B05 /* ParagraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43957C1CCB439A22DD770AE05BEAEA2 /* ParagraphElement.swift */; };
+		6CFD4C7FA41CEBCFFBC90D42EF4C22C4 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E459452FCBF341E5F199A4E70153BC /* Parser.swift */; };
+		6DCF7891F8C51644510EC8D289E9456A /* Archive+BackingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2765F575B0E932626D2F316A04EEB0F6 /* Archive+BackingConfiguration.swift */; };
+		751A149BF666C084292A31A41AB61136 /* DocXOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549C09166FC14E978E601CDB5276D4EF /* DocXOptions.swift */; };
+		7CC1F3D5F5B94310E0BFB00FE64D2AD6 /* FontElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C966C1E27800519B22E995FFEA70D9 /* FontElements.swift */; };
+		80B50753664AF9A51771B020ECC8FE9D /* Entry+ZIP64.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BDC1DBA5158FB4DD0BC3F882434772 /* Entry+ZIP64.swift */; };
+		84C1C27DC778367DEE17F260514022C2 /* Pods-YXDocXCreator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BEFC179468A6F162FFD1DC086EC2A26 /* Pods-YXDocXCreator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6425B5D11FD5A8B038997DE8BD18CE /* ImageRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D4F6767CDD4D364D00993837591E4 /* ImageRelationship.swift */; };
+		8F0093018876AD650A21C068D4544E8C /* RubyAnnotationElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31330406B6F68833E9218807A99E7357 /* RubyAnnotationElement.swift */; };
+		8F5B7F72B300562397D51914B46DA7C3 /* DocX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81321405CCC15E3A1CD4177946509516 /* DocX.swift */; };
+		94613CC115E7CE622891FB3D0C35741F /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4CE53DEE4B3CD27BAA44336AEBCEE /* Document.swift */; };
+		ABE79E83AC6B4B5AAB8ACFE3BF40956B /* YXDocXCreator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9CF62517E8AE19E0A1DD05CFEE8E11 /* YXDocXCreator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3E6950A468997BDD700144BDF5B3A31 /* YXDocXCreateResource in Resources */ = {isa = PBXBuildFile; fileRef = A04FB27E77000266306ACBFBD42CA681 /* YXDocXCreateResource */; };
+		B541C6B1189EE9629A3030BBD2C0B0DB /* DocXWriting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7E695E33204CC41FFC81DCFA3BF95 /* DocXWriting.swift */; };
+		B551728776099D451B1ABDAFBB3A58E8 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E3D7E251A9CFA200593FF3B8607ED /* Element.swift */; };
+		B8034888908E677720BE7AE7362971D3 /* Pods-YXDocXCreator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8893C8B0C044192C29C64A0C137EDC85 /* Pods-YXDocXCreator_Tests-dummy.m */; };
+		BA39879B247D9E6BA02A56EFE38E1895 /* NSTextAttachement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F64AA48994BBB33A39681D18A407421 /* NSTextAttachement+Extensions.swift */; };
+		C54D9D70A6AF9AEAA9B187504CDC9136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C66F0EE74AAF29C4CD99331BE9CE4CB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CB3D7D098BF813307ED78BF46A83FF55 /* NSAttributedString+DocX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D5AAB33FC6E54BA7C37D2C6E6A7D2 /* NSAttributedString+DocX.swift */; };
+		D5FD80C256E15415C196ED3CB9CFF8F7 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA727E2709FBB9F808DEF0C4BA02CB /* Bundle+Extensions.swift */; };
+		DEB4227A76C51D90720D24AB141979B3 /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEAB1F43CAD3DD80A78C56F018EFB28 /* Archive+Reading.swift */; };
+		E08104926E2F5C08D709BF7EEAEC255D /* DocX.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9A1AC9BDDD0220C7F61106429157B6 /* DocX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E17BEDD88F8E652BA942C0F6E6BEDC66 /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6ED9CC511FACE4DBAA637E59289CD4 /* Archive+Writing.swift */; };
+		E4D8A80DA3F2CCAA1D669D4E8A0E1174 /* YXDocXCreator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8C012711917109D202F272A45BBA216E /* YXDocXCreator.bundle */; };
+		E58F2D1AA9F8AC4B9E3794E6526D8E1A /* Entry+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7739AAE05BB9EBF632858BD819D032 /* Entry+Serialization.swift */; };
+		E638B25AA9FFA5BC6274DC2E5762F675 /* Archive+WritingDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C73BDC1534D4F8CAC1CB4B045378F5 /* Archive+WritingDeprecated.swift */; };
+		E6AC35A23D9850326E27075B05FBB5D1 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9337667C07BFF07114C2653CA354C /* Data+Serialization.swift */; };
+		E77AC52817F52E6EBE6E287F8BE9000D /* Archive+ZIP64.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A90BDA1CC5862EB4D9F9EF0B04FB5 /* Archive+ZIP64.swift */; };
+		E96F973CA1602F536514C1CB1502D93B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FCA724A97FE380B2DF153FA655C505 /* Error.swift */; };
+		F00D7AA7471448168869E465E61A4695 /* NSParagraphStyle+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38C4DE4A1ED2CB67C902520D625086 /* NSParagraphStyle+Elements.swift */; };
+		F3656C211D138A1B8F39751B43C6B925 /* NSAttributedString+DocX-macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DE2BD09B9A0201F1DC0FB268BD70A7 /* NSAttributedString+DocX-macOS.swift */; };
+		FE9D4B714ED3372838DCCF8E653D3AA1 /* Pods-YXDocXCreator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BCF29F81E32E151DDC6E657D30047E /* Pods-YXDocXCreator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF5397F40A9D8162BA1A223C92B969E2 /* DocumentRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546FC0DE91B23821098F19F3DDB3FCBE /* DocumentRoot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BB4B6655E9B75AE2533C715D3F4E7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79FFDE7BEFC6B4FD864FF8DAB2C74E91;
+			remoteInfo = "Pods-YXDocXCreator_Example";
+		};
+		961E2B48C7E573BF55F5683974CE6D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7FE9A23100A2A8D9791B37FEA211A0;
+			remoteInfo = "YXDocXCreator-YXDocXCreator";
+		};
+		FDD2B0EBBCCBD6FE40000D39FD07E8DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AE8B2EF81536A2A351699E52A553893;
+			remoteInfo = YXDocXCreator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CE47A3A0FFC82D8CCBF5FEB466B4B6D /* Pods-YXDocXCreator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXDocXCreator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D2D5AAB33FC6E54BA7C37D2C6E6A7D2 /* NSAttributedString+DocX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+DocX.swift"; path = "YXDocXCreator/Classes/DocX/NSAttributedString+DocX.swift"; sourceTree = "<group>"; };
+		0EAD68AFECED835935E026973D26F97C /* YXDocXCreator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YXDocXCreator-dummy.m"; sourceTree = "<group>"; };
+		0F64AA48994BBB33A39681D18A407421 /* NSTextAttachement+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextAttachement+Extensions.swift"; path = "YXDocXCreator/Classes/DocX/NSTextAttachement+Extensions.swift"; sourceTree = "<group>"; };
+		0F9CF62517E8AE19E0A1DD05CFEE8E11 /* YXDocXCreator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXDocXCreator-umbrella.h"; sourceTree = "<group>"; };
+		167FF9BCEA6848AC61D06F515543E7DE /* Pods-YXDocXCreator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXDocXCreator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2017FC80050D2AD99CB6A6ABEF1C0F53 /* AttributeElements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributeElements.swift; path = YXDocXCreator/Classes/DocX/AttributeElements.swift; sourceTree = "<group>"; };
+		23FCA724A97FE380B2DF153FA655C505 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = YXDocXCreator/Classes/AEXML/Error.swift; sourceTree = "<group>"; };
+		2765F575B0E932626D2F316A04EEB0F6 /* Archive+BackingConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Archive+BackingConfiguration.swift"; sourceTree = "<group>"; };
+		2912FCE33544DE80372F134FF55E4201 /* Archive+MemoryFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Archive+MemoryFile.swift"; sourceTree = "<group>"; };
+		2B1A40764292A8AF0F58A1B1F1D29895 /* Data+Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+Compression.swift"; sourceTree = "<group>"; };
+		2D9A1AC9BDDD0220C7F61106429157B6 /* DocX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DocX.h; path = YXDocXCreator/Classes/DocX/DocX.h; sourceTree = "<group>"; };
+		2E8CDF98A461576C528C112F5FFDA2DF /* Pods-YXDocXCreator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YXDocXCreator_Example-dummy.m"; sourceTree = "<group>"; };
+		2EA9337667C07BFF07114C2653CA354C /* Data+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+Serialization.swift"; sourceTree = "<group>"; };
+		3074772B1B92725262F1E16745A30D06 /* Pods-YXDocXCreator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXDocXCreator_Example-Info.plist"; sourceTree = "<group>"; };
+		31330406B6F68833E9218807A99E7357 /* RubyAnnotationElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RubyAnnotationElement.swift; path = YXDocXCreator/Classes/DocX/RubyAnnotationElement.swift; sourceTree = "<group>"; };
+		36A7E695E33204CC41FFC81DCFA3BF95 /* DocXWriting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocXWriting.swift; path = YXDocXCreator/Classes/DocX/DocXWriting.swift; sourceTree = "<group>"; };
+		3AD72B89209334FC7AD437C176EC1C0A /* Entry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		3B23BCB85E5DFD2D6AF8593D3383BD6B /* PlatformSpecific-iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PlatformSpecific-iOS.swift"; path = "YXDocXCreator/Classes/DocX/PlatformSpecific-iOS.swift"; sourceTree = "<group>"; };
+		3C27998FF2BCCFC5A3A5DA819DD267F1 /* Pods-YXDocXCreator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YXDocXCreator_Example.modulemap"; sourceTree = "<group>"; };
+		42997493834215C60621F790661BDF89 /* DocXWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocXWriter.swift; path = YXDocXCreator/Classes/DocX/DocXWriter.swift; sourceTree = "<group>"; };
+		4CF60F735B0ABC78D0500E04F07C39CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5260BA73170236B3748C333D815BE3FC /* Pods-YXDocXCreator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXDocXCreator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		546FC0DE91B23821098F19F3DDB3FCBE /* DocumentRoot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocumentRoot.swift; path = YXDocXCreator/Classes/DocX/DocumentRoot.swift; sourceTree = "<group>"; };
+		549C09166FC14E978E601CDB5276D4EF /* DocXOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocXOptions.swift; path = YXDocXCreator/Classes/DocX/DocXOptions.swift; sourceTree = "<group>"; };
+		56DE2BD09B9A0201F1DC0FB268BD70A7 /* NSAttributedString+DocX-macOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+DocX-macOS.swift"; path = "YXDocXCreator/Classes/DocX/NSAttributedString+DocX-macOS.swift"; sourceTree = "<group>"; };
+		5DF4CE53DEE4B3CD27BAA44336AEBCEE /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = YXDocXCreator/Classes/AEXML/Document.swift; sourceTree = "<group>"; };
+		5FE067ABE55362A1CA2C797DE380F337 /* YXDocXCreator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YXDocXCreator.debug.xcconfig; sourceTree = "<group>"; };
+		6042E21A0E9EE870119051778B5A8611 /* YXDocXCreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YXDocXCreator.framework; path = YXDocXCreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68205085255A91174E66A21CCEDE7119 /* YXDocXCreator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YXDocXCreator-Info.plist"; sourceTree = "<group>"; };
+		6E4609BB36ED853E8F95DF5631CB92F8 /* Archive+Progress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Archive+Progress.swift"; sourceTree = "<group>"; };
+		6FB0063D1FE693AA38E607F2E3529301 /* FileManager+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FileManager+ZIP.swift"; sourceTree = "<group>"; };
+		71E2A50430232AD152588EAB36F64D40 /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = YXDocXCreator/Classes/AEXML/Options.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		796BD01C49BD696827DF7E02BCE815BE /* ResourceBundle-YXDocXCreator-YXDocXCreator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YXDocXCreator-YXDocXCreator-Info.plist"; sourceTree = "<group>"; };
+		7BE1870ED657455ABB7961D987681C6E /* Pods-YXDocXCreator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YXDocXCreator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7C7739AAE05BB9EBF632858BD819D032 /* Entry+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Entry+Serialization.swift"; sourceTree = "<group>"; };
+		7E856D2F19F602A62A529C85CD7DD38C /* AttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedString.swift; path = YXDocXCreator/Classes/DocX/AttributedString.swift; sourceTree = "<group>"; };
+		81321405CCC15E3A1CD4177946509516 /* DocX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocX.swift; path = YXDocXCreator/Classes/DocX/DocX.swift; sourceTree = "<group>"; };
+		824534B31E60D3929A856CEAB77A55B9 /* YXDocXCreator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YXDocXCreator.modulemap; sourceTree = "<group>"; };
+		8893C8B0C044192C29C64A0C137EDC85 /* Pods-YXDocXCreator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YXDocXCreator_Tests-dummy.m"; sourceTree = "<group>"; };
+		8A6ED9CC511FACE4DBAA637E59289CD4 /* Archive+Writing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Archive+Writing.swift"; sourceTree = "<group>"; };
+		8C012711917109D202F272A45BBA216E /* YXDocXCreator.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YXDocXCreator.bundle; path = "YXDocXCreator-YXDocXCreator.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4E3D7E251A9CFA200593FF3B8607ED /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = YXDocXCreator/Classes/AEXML/Element.swift; sourceTree = "<group>"; };
+		90E459452FCBF341E5F199A4E70153BC /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = YXDocXCreator/Classes/AEXML/Parser.swift; sourceTree = "<group>"; };
+		963D4956CEF1827084F9201C274F6BF9 /* YXDocXCreator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YXDocXCreator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		982A9472F5A083CB760D436963B9B85A /* Archive+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Archive+Helpers.swift"; sourceTree = "<group>"; };
+		9AFA727E2709FBB9F808DEF0C4BA02CB /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extensions.swift"; path = "YXDocXCreator/Classes/DocX/Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		9B777313EF4C397C2EDAED5CE5BEDBDF /* Pods-YXDocXCreator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXDocXCreator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9BEFC179468A6F162FFD1DC086EC2A26 /* Pods-YXDocXCreator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YXDocXCreator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E74401B5AEAC53B24E64383581AE9DC /* Archive+ReadingDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Archive+ReadingDeprecated.swift"; sourceTree = "<group>"; };
+		A04FB27E77000266306ACBFBD42CA681 /* YXDocXCreateResource */ = {isa = PBXFileReference; includeInIndex = 1; path = YXDocXCreateResource; sourceTree = "<group>"; };
+		A6EDB274CB7105392BFE65DCFA465B2D /* Data+CompressionDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+CompressionDeprecated.swift"; sourceTree = "<group>"; };
+		ABEAB1F43CAD3DD80A78C56F018EFB28 /* Archive+Reading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Archive+Reading.swift"; sourceTree = "<group>"; };
+		ACDBB7026304C78B11B36AF756E19F32 /* Pods-YXDocXCreator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YXDocXCreator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4C966C1E27800519B22E995FFEA70D9 /* FontElements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontElements.swift; path = YXDocXCreator/Classes/DocX/FontElements.swift; sourceTree = "<group>"; };
+		B62A90BDA1CC5862EB4D9F9EF0B04FB5 /* Archive+ZIP64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Archive+ZIP64.swift"; sourceTree = "<group>"; };
+		B6D538529A0886E8A12EA7208A05D6C0 /* URL+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "URL+ZIP.swift"; sourceTree = "<group>"; };
+		BC38C4DE4A1ED2CB67C902520D625086 /* NSParagraphStyle+Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSParagraphStyle+Elements.swift"; path = "YXDocXCreator/Classes/DocX/NSParagraphStyle+Elements.swift"; sourceTree = "<group>"; };
+		C2EBFD7FEDA5CEC77F95C411A36D1F18 /* YXDocXCreator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YXDocXCreator.release.xcconfig; sourceTree = "<group>"; };
+		C4F4E4FA1BA6C47249E1B76AE52C348D /* Pods-YXDocXCreator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXDocXCreator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C5308E6FF6920E100536569F35592CF2 /* Pods-YXDocXCreator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YXDocXCreator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6E3AD82A68EF742DD766FFC19040CCF /* PlatformSpecific-macOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PlatformSpecific-macOS.swift"; path = "YXDocXCreator/Classes/DocX/PlatformSpecific-macOS.swift"; sourceTree = "<group>"; };
+		C79542A83B9EE448A399CCB647561BF3 /* Pods-YXDocXCreator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXDocXCreator_Tests-Info.plist"; sourceTree = "<group>"; };
+		C87E05B4DD237E157CDED39ED6FA85E4 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		C92EE11C3F5198C660FFB4AC8E7D894E /* NSAttributedString+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Extensions.swift"; path = "YXDocXCreator/Classes/DocX/NSAttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		CF3D4F6767CDD4D364D00993837591E4 /* ImageRelationship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageRelationship.swift; path = YXDocXCreator/Classes/DocX/ImageRelationship.swift; sourceTree = "<group>"; };
+		D184BE323AE635026122C9D4D8B380D5 /* Pods-YXDocXCreator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YXDocXCreator_Tests.modulemap"; sourceTree = "<group>"; };
+		D43957C1CCB439A22DD770AE05BEAEA2 /* ParagraphElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParagraphElement.swift; path = YXDocXCreator/Classes/DocX/ParagraphElement.swift; sourceTree = "<group>"; };
+		D8648218A89B8B3F540007FDF2AD1F36 /* Pods_YXDocXCreator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YXDocXCreator_Tests.framework; path = "Pods-YXDocXCreator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB193227ED8A440C6521FE1FB3718B43 /* Archive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
+		DEB629DD8974EC36F850B370619F7A9C /* Pods-YXDocXCreator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXDocXCreator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DECB0148E91D2218071BEBB664C06CFF /* Pods_YXDocXCreator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YXDocXCreator_Example.framework; path = "Pods-YXDocXCreator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BDC1DBA5158FB4DD0BC3F882434772 /* Entry+ZIP64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Entry+ZIP64.swift"; sourceTree = "<group>"; };
+		E4BCF29F81E32E151DDC6E657D30047E /* Pods-YXDocXCreator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YXDocXCreator_Example-umbrella.h"; sourceTree = "<group>"; };
+		E5938D172C4FB1E90F368F9D19884AF7 /* shim.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = shim.h; sourceTree = "<group>"; };
+		E66F654A7981ED43D75FA1E3C57B0F7A /* NSUnderlineStyle+Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSUnderlineStyle+Elements.swift"; path = "YXDocXCreator/Classes/DocX/NSUnderlineStyle+Elements.swift"; sourceTree = "<group>"; };
+		F1C73BDC1534D4F8CAC1CB4B045378F5 /* Archive+WritingDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Archive+WritingDeprecated.swift"; sourceTree = "<group>"; };
+		F47D8AA27948CC3F5F5E545C49532E52 /* YXDocXCreator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXDocXCreator-prefix.pch"; sourceTree = "<group>"; };
+		F5F938C7FD88BA9C25643CB58F6AB20D /* NSAttributedString+Writing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Writing.swift"; path = "YXDocXCreator/Classes/DocX/NSAttributedString+Writing.swift"; sourceTree = "<group>"; };
+		FB3DB11A6D23B91DA7445A056C2A3B7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CA800A28F810BC7BAC67D86CBFD1E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B1CCCB1078FED96423342A82E08D9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E2E1F85F95FBDFF46C4BCA9002468E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6F1F52B675A9BD4921416306BEDA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66F0EE74AAF29C4CD99331BE9CE4CB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF1BE9538078AC2F7CF22560F31962D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54D9D70A6AF9AEAA9B187504CDC9136 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BBCF43F3B7E8B4E0189780E2710A1F3 /* Pods-YXDocXCreator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3C27998FF2BCCFC5A3A5DA819DD267F1 /* Pods-YXDocXCreator_Example.modulemap */,
+				ACDBB7026304C78B11B36AF756E19F32 /* Pods-YXDocXCreator_Example-acknowledgements.markdown */,
+				0CE47A3A0FFC82D8CCBF5FEB466B4B6D /* Pods-YXDocXCreator_Example-acknowledgements.plist */,
+				2E8CDF98A461576C528C112F5FFDA2DF /* Pods-YXDocXCreator_Example-dummy.m */,
+				7BE1870ED657455ABB7961D987681C6E /* Pods-YXDocXCreator_Example-frameworks.sh */,
+				3074772B1B92725262F1E16745A30D06 /* Pods-YXDocXCreator_Example-Info.plist */,
+				E4BCF29F81E32E151DDC6E657D30047E /* Pods-YXDocXCreator_Example-umbrella.h */,
+				DEB629DD8974EC36F850B370619F7A9C /* Pods-YXDocXCreator_Example.debug.xcconfig */,
+				C4F4E4FA1BA6C47249E1B76AE52C348D /* Pods-YXDocXCreator_Example.release.xcconfig */,
+			);
+			name = "Pods-YXDocXCreator_Example";
+			path = "Target Support Files/Pods-YXDocXCreator_Example";
+			sourceTree = "<group>";
+		};
+		216164FDDDB875B6EC76BB02ED741EE4 /* DocX */ = {
+			isa = PBXGroup;
+			children = (
+				7E856D2F19F602A62A529C85CD7DD38C /* AttributedString.swift */,
+				2017FC80050D2AD99CB6A6ABEF1C0F53 /* AttributeElements.swift */,
+				9AFA727E2709FBB9F808DEF0C4BA02CB /* Bundle+Extensions.swift */,
+				546FC0DE91B23821098F19F3DDB3FCBE /* DocumentRoot.swift */,
+				2D9A1AC9BDDD0220C7F61106429157B6 /* DocX.h */,
+				81321405CCC15E3A1CD4177946509516 /* DocX.swift */,
+				549C09166FC14E978E601CDB5276D4EF /* DocXOptions.swift */,
+				42997493834215C60621F790661BDF89 /* DocXWriter.swift */,
+				36A7E695E33204CC41FFC81DCFA3BF95 /* DocXWriting.swift */,
+				B4C966C1E27800519B22E995FFEA70D9 /* FontElements.swift */,
+				CF3D4F6767CDD4D364D00993837591E4 /* ImageRelationship.swift */,
+				0D2D5AAB33FC6E54BA7C37D2C6E6A7D2 /* NSAttributedString+DocX.swift */,
+				56DE2BD09B9A0201F1DC0FB268BD70A7 /* NSAttributedString+DocX-macOS.swift */,
+				C92EE11C3F5198C660FFB4AC8E7D894E /* NSAttributedString+Extensions.swift */,
+				F5F938C7FD88BA9C25643CB58F6AB20D /* NSAttributedString+Writing.swift */,
+				BC38C4DE4A1ED2CB67C902520D625086 /* NSParagraphStyle+Elements.swift */,
+				0F64AA48994BBB33A39681D18A407421 /* NSTextAttachement+Extensions.swift */,
+				E66F654A7981ED43D75FA1E3C57B0F7A /* NSUnderlineStyle+Elements.swift */,
+				D43957C1CCB439A22DD770AE05BEAEA2 /* ParagraphElement.swift */,
+				3B23BCB85E5DFD2D6AF8593D3383BD6B /* PlatformSpecific-iOS.swift */,
+				C6E3AD82A68EF742DD766FFC19040CCF /* PlatformSpecific-macOS.swift */,
+				31330406B6F68833E9218807A99E7357 /* RubyAnnotationElement.swift */,
+			);
+			name = DocX;
+			sourceTree = "<group>";
+		};
+		25820FE274250C64007AE3A07B8B0843 /* ZipFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				595B84CD8884F0AEEC98C602C42A698F /* CZLib */,
+				260B33841BD8040A0348B8895784C01A /* ZipFoundation */,
+			);
+			name = ZipFoundation;
+			sourceTree = "<group>";
+		};
+		260B33841BD8040A0348B8895784C01A /* ZipFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				DB193227ED8A440C6521FE1FB3718B43 /* Archive.swift */,
+				2765F575B0E932626D2F316A04EEB0F6 /* Archive+BackingConfiguration.swift */,
+				982A9472F5A083CB760D436963B9B85A /* Archive+Helpers.swift */,
+				2912FCE33544DE80372F134FF55E4201 /* Archive+MemoryFile.swift */,
+				6E4609BB36ED853E8F95DF5631CB92F8 /* Archive+Progress.swift */,
+				ABEAB1F43CAD3DD80A78C56F018EFB28 /* Archive+Reading.swift */,
+				9E74401B5AEAC53B24E64383581AE9DC /* Archive+ReadingDeprecated.swift */,
+				8A6ED9CC511FACE4DBAA637E59289CD4 /* Archive+Writing.swift */,
+				F1C73BDC1534D4F8CAC1CB4B045378F5 /* Archive+WritingDeprecated.swift */,
+				B62A90BDA1CC5862EB4D9F9EF0B04FB5 /* Archive+ZIP64.swift */,
+				2B1A40764292A8AF0F58A1B1F1D29895 /* Data+Compression.swift */,
+				A6EDB274CB7105392BFE65DCFA465B2D /* Data+CompressionDeprecated.swift */,
+				2EA9337667C07BFF07114C2653CA354C /* Data+Serialization.swift */,
+				3AD72B89209334FC7AD437C176EC1C0A /* Entry.swift */,
+				7C7739AAE05BB9EBF632858BD819D032 /* Entry+Serialization.swift */,
+				E3BDC1DBA5158FB4DD0BC3F882434772 /* Entry+ZIP64.swift */,
+				6FB0063D1FE693AA38E607F2E3529301 /* FileManager+ZIP.swift */,
+				B6D538529A0886E8A12EA7208A05D6C0 /* URL+ZIP.swift */,
+			);
+			name = ZipFoundation;
+			path = YXDocXCreator/Classes/ZipFoundation/ZipFoundation;
+			sourceTree = "<group>";
+		};
+		4A3B962E5084F90BD93D9F7F5B11703C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E74D454D44CDFBC899A3F38376924AAB /* YXDocXCreator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		595B84CD8884F0AEEC98C602C42A698F /* CZLib */ = {
+			isa = PBXGroup;
+			children = (
+				C87E05B4DD237E157CDED39ED6FA85E4 /* module.modulemap */,
+				E5938D172C4FB1E90F368F9D19884AF7 /* shim.h */,
+			);
+			name = CZLib;
+			path = YXDocXCreator/Classes/ZipFoundation/CZLib;
+			sourceTree = "<group>";
+		};
+		8910FEF2E8087E2953B8CF399881417A /* Pods-YXDocXCreator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D184BE323AE635026122C9D4D8B380D5 /* Pods-YXDocXCreator_Tests.modulemap */,
+				C5308E6FF6920E100536569F35592CF2 /* Pods-YXDocXCreator_Tests-acknowledgements.markdown */,
+				5260BA73170236B3748C333D815BE3FC /* Pods-YXDocXCreator_Tests-acknowledgements.plist */,
+				8893C8B0C044192C29C64A0C137EDC85 /* Pods-YXDocXCreator_Tests-dummy.m */,
+				C79542A83B9EE448A399CCB647561BF3 /* Pods-YXDocXCreator_Tests-Info.plist */,
+				9BEFC179468A6F162FFD1DC086EC2A26 /* Pods-YXDocXCreator_Tests-umbrella.h */,
+				167FF9BCEA6848AC61D06F515543E7DE /* Pods-YXDocXCreator_Tests.debug.xcconfig */,
+				9B777313EF4C397C2EDAED5CE5BEDBDF /* Pods-YXDocXCreator_Tests.release.xcconfig */,
+			);
+			name = "Pods-YXDocXCreator_Tests";
+			path = "Target Support Files/Pods-YXDocXCreator_Tests";
+			sourceTree = "<group>";
+		};
+		91F3487A667BC2CC3EE258415C713CAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DECB0148E91D2218071BEBB664C06CFF /* Pods_YXDocXCreator_Example.framework */,
+				D8648218A89B8B3F540007FDF2AD1F36 /* Pods_YXDocXCreator_Tests.framework */,
+				8C012711917109D202F272A45BBA216E /* YXDocXCreator.bundle */,
+				6042E21A0E9EE870119051778B5A8611 /* YXDocXCreator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0731C87AC455293CB511182481A7E7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4CF60F735B0ABC78D0500E04F07C39CE /* LICENSE */,
+				FB3DB11A6D23B91DA7445A056C2A3B7D /* README.md */,
+				963D4956CEF1827084F9201C274F6BF9 /* YXDocXCreator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CD22CAA71E68C3B0ED142861D08C0907 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				796BD01C49BD696827DF7E02BCE815BE /* ResourceBundle-YXDocXCreator-YXDocXCreator-Info.plist */,
+				824534B31E60D3929A856CEAB77A55B9 /* YXDocXCreator.modulemap */,
+				0EAD68AFECED835935E026973D26F97C /* YXDocXCreator-dummy.m */,
+				68205085255A91174E66A21CCEDE7119 /* YXDocXCreator-Info.plist */,
+				F47D8AA27948CC3F5F5E545C49532E52 /* YXDocXCreator-prefix.pch */,
+				0F9CF62517E8AE19E0A1DD05CFEE8E11 /* YXDocXCreator-umbrella.h */,
+				5FE067ABE55362A1CA2C797DE380F337 /* YXDocXCreator.debug.xcconfig */,
+				C2EBFD7FEDA5CEC77F95C411A36D1F18 /* YXDocXCreator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YXDocXCreator";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4A3B962E5084F90BD93D9F7F5B11703C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				91F3487A667BC2CC3EE258415C713CAB /* Products */,
+				FA6F2C8095A8F4074DDB2E7DBE21B170 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D26F598E494E1B6F5500607F748DDDCD /* AEXML */ = {
+			isa = PBXGroup;
+			children = (
+				5DF4CE53DEE4B3CD27BAA44336AEBCEE /* Document.swift */,
+				8D4E3D7E251A9CFA200593FF3B8607ED /* Element.swift */,
+				23FCA724A97FE380B2DF153FA655C505 /* Error.swift */,
+				71E2A50430232AD152588EAB36F64D40 /* Options.swift */,
+				90E459452FCBF341E5F199A4E70153BC /* Parser.swift */,
+			);
+			name = AEXML;
+			sourceTree = "<group>";
+		};
+		E74D454D44CDFBC899A3F38376924AAB /* YXDocXCreator */ = {
+			isa = PBXGroup;
+			children = (
+				A04FB27E77000266306ACBFBD42CA681 /* YXDocXCreateResource */,
+				D26F598E494E1B6F5500607F748DDDCD /* AEXML */,
+				216164FDDDB875B6EC76BB02ED741EE4 /* DocX */,
+				9F0731C87AC455293CB511182481A7E7 /* Pod */,
+				CD22CAA71E68C3B0ED142861D08C0907 /* Support Files */,
+				25820FE274250C64007AE3A07B8B0843 /* ZipFoundation */,
+			);
+			name = YXDocXCreator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FA6F2C8095A8F4074DDB2E7DBE21B170 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BBCF43F3B7E8B4E0189780E2710A1F3 /* Pods-YXDocXCreator_Example */,
+				8910FEF2E8087E2953B8CF399881417A /* Pods-YXDocXCreator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B7F109D73CB900CFBCFE3D6272816AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08104926E2F5C08D709BF7EEAEC255D /* DocX.h in Headers */,
+				2D897F02DEC60C9819121149CB3359CC /* shim.h in Headers */,
+				ABE79E83AC6B4B5AAB8ACFE3BF40956B /* YXDocXCreator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F98CBE8249D955D977D094A18CC43A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9D4B714ED3372838DCCF8E653D3AA1 /* Pods-YXDocXCreator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D31FE03975E1533F736CDB6D43007CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C1C27DC778367DEE17F260514022C2 /* Pods-YXDocXCreator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DAD1B3FE8A32F055E0B43501C67995D /* Pods-YXDocXCreator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A499F1EC4729BECA62BB6833A5B291C7 /* Build configuration list for PBXNativeTarget "Pods-YXDocXCreator_Tests" */;
+			buildPhases = (
+				3D31FE03975E1533F736CDB6D43007CA /* Headers */,
+				4412C70DA1404291ED64A0B1BAF17DBA /* Sources */,
+				EDF1BE9538078AC2F7CF22560F31962D /* Frameworks */,
+				2578531FDE700C28209334A12789A371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				973F830D81F1C8C63AD661ABF3D016C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-YXDocXCreator_Tests";
+			productName = "Pods-YXDocXCreator_Tests";
+			productReference = D8648218A89B8B3F540007FDF2AD1F36 /* Pods_YXDocXCreator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79FFDE7BEFC6B4FD864FF8DAB2C74E91 /* Pods-YXDocXCreator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708B34D8374E14C1A683169F8B122C58 /* Build configuration list for PBXNativeTarget "Pods-YXDocXCreator_Example" */;
+			buildPhases = (
+				33F98CBE8249D955D977D094A18CC43A /* Headers */,
+				27CB5F47ECB3F1BC2C7F2F055FBEAD9B /* Sources */,
+				2CA800A28F810BC7BAC67D86CBFD1E81 /* Frameworks */,
+				C4F784D10AAEBD1BF7ADFF959F013352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90924A00B6E76FAD2F2C831A6174A416 /* PBXTargetDependency */,
+			);
+			name = "Pods-YXDocXCreator_Example";
+			productName = "Pods-YXDocXCreator_Example";
+			productReference = DECB0148E91D2218071BEBB664C06CFF /* Pods_YXDocXCreator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AE8B2EF81536A2A351699E52A553893 /* YXDocXCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88477B5F8DEC1EEBA1B427E2FD3C19A /* Build configuration list for PBXNativeTarget "YXDocXCreator" */;
+			buildPhases = (
+				2B7F109D73CB900CFBCFE3D6272816AF /* Headers */,
+				77E7A26D6D187D5E7B9725CDB92842F6 /* Sources */,
+				7B6F1F52B675A9BD4921416306BEDA98 /* Frameworks */,
+				FC5138FCF4484FACA7B0E4B70CA449CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79221801E619E2B93F9D359E13B3E2EC /* PBXTargetDependency */,
+			);
+			name = YXDocXCreator;
+			productName = YXDocXCreator;
+			productReference = 6042E21A0E9EE870119051778B5A8611 /* YXDocXCreator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A7FE9A23100A2A8D9791B37FEA211A0 /* YXDocXCreator-YXDocXCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C449EE64E10D00A5AC9745AFF7BFFD /* Build configuration list for PBXNativeTarget "YXDocXCreator-YXDocXCreator" */;
+			buildPhases = (
+				FE1EEBE9C599B39A4FE70814A17350CB /* Sources */,
+				40E2E1F85F95FBDFF46C4BCA9002468E /* Frameworks */,
+				823711E3DABB9C16ABBA5A0CEB8186D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YXDocXCreator-YXDocXCreator";
+			productName = "YXDocXCreator-YXDocXCreator";
+			productReference = 8C012711917109D202F272A45BBA216E /* YXDocXCreator.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 91F3487A667BC2CC3EE258415C713CAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79FFDE7BEFC6B4FD864FF8DAB2C74E91 /* Pods-YXDocXCreator_Example */,
+				3DAD1B3FE8A32F055E0B43501C67995D /* Pods-YXDocXCreator_Tests */,
+				7AE8B2EF81536A2A351699E52A553893 /* YXDocXCreator */,
+				9A7FE9A23100A2A8D9791B37FEA211A0 /* YXDocXCreator-YXDocXCreator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2578531FDE700C28209334A12789A371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823711E3DABB9C16ABBA5A0CEB8186D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E6950A468997BDD700144BDF5B3A31 /* YXDocXCreateResource in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F784D10AAEBD1BF7ADFF959F013352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5138FCF4484FACA7B0E4B70CA449CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D8A80DA3F2CCAA1D669D4E8A0E1174 /* YXDocXCreator.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27CB5F47ECB3F1BC2C7F2F055FBEAD9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A18789819169ACF33D3325D4661E32 /* Pods-YXDocXCreator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4412C70DA1404291ED64A0B1BAF17DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8034888908E677720BE7AE7362971D3 /* Pods-YXDocXCreator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E7A26D6D187D5E7B9725CDB92842F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCF7891F8C51644510EC8D289E9456A /* Archive+BackingConfiguration.swift in Sources */,
+				3BDFDB3EE62B56B23507CED2E0A2E92B /* Archive+Helpers.swift in Sources */,
+				0148C462EAA7B4737F4F1F2C2DCAFE19 /* Archive+MemoryFile.swift in Sources */,
+				4E0DBC0393215793C637E4BB17ACA528 /* Archive+Progress.swift in Sources */,
+				DEB4227A76C51D90720D24AB141979B3 /* Archive+Reading.swift in Sources */,
+				0D7B7C0210CF308C26AAFC958B46B25B /* Archive+ReadingDeprecated.swift in Sources */,
+				E17BEDD88F8E652BA942C0F6E6BEDC66 /* Archive+Writing.swift in Sources */,
+				E638B25AA9FFA5BC6274DC2E5762F675 /* Archive+WritingDeprecated.swift in Sources */,
+				E77AC52817F52E6EBE6E287F8BE9000D /* Archive+ZIP64.swift in Sources */,
+				55F26F9504CAB0E100A6B9F695F6E43E /* Archive.swift in Sources */,
+				1F738D41976A9C536B76375905643F57 /* AttributedString.swift in Sources */,
+				5192911EA57BE26A7A29FE354C7F806E /* AttributeElements.swift in Sources */,
+				D5FD80C256E15415C196ED3CB9CFF8F7 /* Bundle+Extensions.swift in Sources */,
+				390B99232ADF2F1F22D7C9A7BA54A41F /* Data+Compression.swift in Sources */,
+				1B58BF1DA20457FC2B94C2C61891AB54 /* Data+CompressionDeprecated.swift in Sources */,
+				E6AC35A23D9850326E27075B05FBB5D1 /* Data+Serialization.swift in Sources */,
+				94613CC115E7CE622891FB3D0C35741F /* Document.swift in Sources */,
+				FF5397F40A9D8162BA1A223C92B969E2 /* DocumentRoot.swift in Sources */,
+				8F5B7F72B300562397D51914B46DA7C3 /* DocX.swift in Sources */,
+				751A149BF666C084292A31A41AB61136 /* DocXOptions.swift in Sources */,
+				14749FAEC8BBDFD22B00C7C7EE2B98E3 /* DocXWriter.swift in Sources */,
+				B541C6B1189EE9629A3030BBD2C0B0DB /* DocXWriting.swift in Sources */,
+				B551728776099D451B1ABDAFBB3A58E8 /* Element.swift in Sources */,
+				E58F2D1AA9F8AC4B9E3794E6526D8E1A /* Entry+Serialization.swift in Sources */,
+				80B50753664AF9A51771B020ECC8FE9D /* Entry+ZIP64.swift in Sources */,
+				57F2426B7DA38484C147B7E2A0D3AFBF /* Entry.swift in Sources */,
+				E96F973CA1602F536514C1CB1502D93B /* Error.swift in Sources */,
+				0F39DD55A7263DBF2FE5AD53EEBEE662 /* FileManager+ZIP.swift in Sources */,
+				7CC1F3D5F5B94310E0BFB00FE64D2AD6 /* FontElements.swift in Sources */,
+				8A6425B5D11FD5A8B038997DE8BD18CE /* ImageRelationship.swift in Sources */,
+				28F6C092C771B0ED022EEEA6DCFC44BA /* module.modulemap in Sources */,
+				F3656C211D138A1B8F39751B43C6B925 /* NSAttributedString+DocX-macOS.swift in Sources */,
+				CB3D7D098BF813307ED78BF46A83FF55 /* NSAttributedString+DocX.swift in Sources */,
+				173165F1894CD2E63FB38EC5F5363E40 /* NSAttributedString+Extensions.swift in Sources */,
+				44E2D8A3FB1B12E47BF6CC2FD560AA13 /* NSAttributedString+Writing.swift in Sources */,
+				F00D7AA7471448168869E465E61A4695 /* NSParagraphStyle+Elements.swift in Sources */,
+				BA39879B247D9E6BA02A56EFE38E1895 /* NSTextAttachement+Extensions.swift in Sources */,
+				1EA3F1BD06318AEFDB9254AC7A94CA55 /* NSUnderlineStyle+Elements.swift in Sources */,
+				12A680A624F021BFA7B514B68CCDCA50 /* Options.swift in Sources */,
+				5ED7F176843F1777BFDE08D566AC6B05 /* ParagraphElement.swift in Sources */,
+				6CFD4C7FA41CEBCFFBC90D42EF4C22C4 /* Parser.swift in Sources */,
+				3F1A8A2703F39472E19C743C5F1881DA /* PlatformSpecific-iOS.swift in Sources */,
+				0D04133224D657559D150598DD61C88A /* PlatformSpecific-macOS.swift in Sources */,
+				8F0093018876AD650A21C068D4544E8C /* RubyAnnotationElement.swift in Sources */,
+				3CC9BD3550E6A8F52805B8837912DE97 /* URL+ZIP.swift in Sources */,
+				365491BC23E8F7C248059A96C4D0EDC2 /* YXDocXCreator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1EEBE9C599B39A4FE70814A17350CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79221801E619E2B93F9D359E13B3E2EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YXDocXCreator-YXDocXCreator";
+			target = 9A7FE9A23100A2A8D9791B37FEA211A0 /* YXDocXCreator-YXDocXCreator */;
+			targetProxy = 961E2B48C7E573BF55F5683974CE6D14 /* PBXContainerItemProxy */;
+		};
+		90924A00B6E76FAD2F2C831A6174A416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YXDocXCreator;
+			target = 7AE8B2EF81536A2A351699E52A553893 /* YXDocXCreator */;
+			targetProxy = FDD2B0EBBCCBD6FE40000D39FD07E8DB /* PBXContainerItemProxy */;
+		};
+		973F830D81F1C8C63AD661ABF3D016C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YXDocXCreator_Example";
+			target = 79FFDE7BEFC6B4FD864FF8DAB2C74E91 /* Pods-YXDocXCreator_Example */;
+			targetProxy = 8BB4B6655E9B75AE2533C715D3F4E7B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04262BF809AD69DEDC53500C960650AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE067ABE55362A1CA2C797DE380F337 /* YXDocXCreator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YXDocXCreator/YXDocXCreator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YXDocXCreator/YXDocXCreator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YXDocXCreator/YXDocXCreator.modulemap";
+				PRODUCT_MODULE_NAME = YXDocXCreator;
+				PRODUCT_NAME = YXDocXCreator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59BF6925A18DA88A18B3E41C8D253477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB629DD8974EC36F850B370619F7A9C /* Pods-YXDocXCreator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YXDocXCreator_Example/Pods-YXDocXCreator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YXDocXCreator_Example/Pods-YXDocXCreator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6258E1F67FE3CE56836A0D176F41BA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EBFD7FEDA5CEC77F95C411A36D1F18 /* YXDocXCreator.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YXDocXCreator";
+				IBSC_MODULE = YXDocXCreator;
+				INFOPLIST_FILE = "Target Support Files/YXDocXCreator/ResourceBundle-YXDocXCreator-YXDocXCreator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = YXDocXCreator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		699A695F1D5C9C61BCA9A7E131B50BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B777313EF4C397C2EDAED5CE5BEDBDF /* Pods-YXDocXCreator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YXDocXCreator_Tests/Pods-YXDocXCreator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YXDocXCreator_Tests/Pods-YXDocXCreator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		90AF14A3297BF6087FC065E856299B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167FF9BCEA6848AC61D06F515543E7DE /* Pods-YXDocXCreator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YXDocXCreator_Tests/Pods-YXDocXCreator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YXDocXCreator_Tests/Pods-YXDocXCreator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1F43EE7E88CB667D000A5B1D1311DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F4E4FA1BA6C47249E1B76AE52C348D /* Pods-YXDocXCreator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YXDocXCreator_Example/Pods-YXDocXCreator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YXDocXCreator_Example/Pods-YXDocXCreator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DE21FA5C24ADBE205BDC9738292171BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE067ABE55362A1CA2C797DE380F337 /* YXDocXCreator.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YXDocXCreator";
+				IBSC_MODULE = YXDocXCreator;
+				INFOPLIST_FILE = "Target Support Files/YXDocXCreator/ResourceBundle-YXDocXCreator-YXDocXCreator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = YXDocXCreator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F25F00BF56800716362D7F52BE7A3B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EBFD7FEDA5CEC77F95C411A36D1F18 /* YXDocXCreator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YXDocXCreator/YXDocXCreator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YXDocXCreator/YXDocXCreator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YXDocXCreator/YXDocXCreator.modulemap";
+				PRODUCT_MODULE_NAME = YXDocXCreator;
+				PRODUCT_NAME = YXDocXCreator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708B34D8374E14C1A683169F8B122C58 /* Build configuration list for PBXNativeTarget "Pods-YXDocXCreator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BF6925A18DA88A18B3E41C8D253477 /* Debug */,
+				A1F43EE7E88CB667D000A5B1D1311DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A499F1EC4729BECA62BB6833A5B291C7 /* Build configuration list for PBXNativeTarget "Pods-YXDocXCreator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AF14A3297BF6087FC065E856299B71 /* Debug */,
+				699A695F1D5C9C61BCA9A7E131B50BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88477B5F8DEC1EEBA1B427E2FD3C19A /* Build configuration list for PBXNativeTarget "YXDocXCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04262BF809AD69DEDC53500C960650AA /* Debug */,
+				F25F00BF56800716362D7F52BE7A3B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C449EE64E10D00A5AC9745AFF7BFFD /* Build configuration list for PBXNativeTarget "YXDocXCreator-YXDocXCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE21FA5C24ADBE205BDC9738292171BA /* Debug */,
+				6258E1F67FE3CE56836A0D176F41BA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -29,12 +29,24 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
-  s.source_files = 'YXDocXCreator/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'YXDocXCreator' => ['YXDocXCreator/Assets/*.png']
-  # }
+  s.subspec 'DocX' do |sp|
+    sp.source_files = 'YXDocXCreator/Classes/DocX/**/*'
+    sp.dependency 'YXDocXCreator/AEXML'
+    sp.dependency 'YXDocXCreator/ZipFoundation'
+  end
+  
+  s.subspec 'AEXML' do |sp|
+    sp.source_files = 'YXDocXCreator/Classes/AEXML/**/*'
+  end
+  
+  s.subspec 'ZipFoundation' do |sp|
+    sp.source_files = 'YXDocXCreator/Classes/ZipFoundation/**/*'
+  end
+
+   s.resource_bundles = {
+     'YXDocXCreator' => ['YXDocXCreateResource']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
