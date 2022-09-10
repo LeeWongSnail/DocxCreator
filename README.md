@@ -22,7 +22,7 @@ pod 'YXDocXCreator'
 
 ## Author
 
-liwang8, wangli@yinxiang.com
+LeeWong wangli_0632@163.com
 
 ## License
 
