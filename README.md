@@ -27,7 +27,7 @@ LeeWong wangli_0632@163.com
 ## License
 
 YXDocXCreator is available under the MIT license. See the LICENSE file for more info.
-=======
+
 
 ## 背景
 近期的需求中有一项任务是将用户输入的文字和图片写入Word文件并支持导出，对于苹果和微软的爱恨情仇很早就知道，iOS文本写入Word难度可想而知，所以在接到这个需求的第一时间，我就明确要求这个需求要先调研，然后再开始。所以这篇文章也算是对我调研结果的一个总结。
