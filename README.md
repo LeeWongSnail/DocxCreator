@@ -421,6 +421,7 @@ func writeDocX_builtin(to url: URL, options:DocXOptions = DocXOptions()) throws{
 
 根据你的需求，选择一个合适你的方案吧！
 
+这是我的[demo](https://github.com/LeeWongSnail/DocxCreator)，有用自取
 
 # 参考文献
 
